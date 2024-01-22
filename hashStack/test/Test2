@@ -1,0 +1,4 @@
+Test for contract A2
+
+1> check if the sum of the variables inside the struct must not pass outside the range of 2^256
+2> no negetive numbers should be passed 

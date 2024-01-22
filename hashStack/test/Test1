@@ -1,0 +1,5 @@
+Test of contract A
+
+1> the value sent in the setter function must be greater than 0
+2> values over 2^256 should not be sent to the setter function
+3> no negetive values should be sent to the setter function

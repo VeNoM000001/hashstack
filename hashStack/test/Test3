@@ -1,0 +1,7 @@
+Test for contract A3
+
+1> check if the sum of the variables inside the struct must not pass outside the range of 2^256
+2> no negetive numbers should be passed
+3> check if msg.sender is equal to owner in case of calling the setter function.
+
+No reentrancy gaurd is required because no such transaction is occuring to which some hacker can attack 

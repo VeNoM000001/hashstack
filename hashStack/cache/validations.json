@@ -1,0 +1,207 @@
+{
+  "version": "3.4",
+  "log": [
+    {
+      "contracts/Task2.sol:A2": {
+        "src": "contracts\\Task2.sol:4",
+        "version": {
+          "withMetadata": "b158f6765a80e92151687b89c562bfd673f98275b0a8ad3774200a9c1c94baeb",
+          "withoutMetadata": "8ad5a2c2732874633a7a08911bd1a7b6ebcd9567ac9251e34d543d561ee1324c",
+          "linkedWithoutMetadata": "8ad5a2c2732874633a7a08911bd1a7b6ebcd9567ac9251e34d543d561ee1324c"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "initialvalue(uint256)",
+          "getter()",
+          "setter(uint256,uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "value",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "A2",
+              "src": "contracts\\Task2.sol:5"
+            },
+            {
+              "label": "newInput",
+              "offset": 0,
+              "slot": "1",
+              "type": "t_struct(input)7_storage",
+              "contract": "A2",
+              "src": "contracts\\Task2.sol:11"
+            }
+          ],
+          "types": {
+            "t_struct(input)7_storage": {
+              "label": "struct A2.input",
+              "members": [
+                {
+                  "label": "myIntA",
+                  "type": "t_uint256",
+                  "offset": 0,
+                  "slot": "0"
+                },
+                {
+                  "label": "myIntB",
+                  "type": "t_uint256",
+                  "offset": 0,
+                  "slot": "1"
+                }
+              ],
+              "numberOfBytes": "64"
+            },
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.19"
+      }
+    },
+    {
+      "contracts/Task.sol:A": {
+        "src": "contracts\\Task.sol:4",
+        "version": {
+          "withMetadata": "abd01c677d4a96197455511b8c88904bf32ff3db6c8d3c1898c319e9a2d48df2",
+          "withoutMetadata": "3fbda08742bee571ff022de448035ee2c91450c73578809755a552aab54f5714",
+          "linkedWithoutMetadata": "3fbda08742bee571ff022de448035ee2c91450c73578809755a552aab54f5714"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "initialvalue(uint256)",
+          "getter()",
+          "setter(uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [],
+        "layout": {
+          "storage": [
+            {
+              "label": "value",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "A",
+              "src": "contracts\\Task.sol:5"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.19"
+      }
+    },
+    {
+      "contracts/Task.sol:A": {
+        "src": "contracts\\Task.sol:4",
+        "version": {
+          "withMetadata": "f09d11a3764c1d85873f495bdf66c52aedd08eb21f41a70575f33a904282f328",
+          "withoutMetadata": "f42bf24c7e7efe6eae53996b2d1f162bcc7341b468304f71052fcc8a6932115f",
+          "linkedWithoutMetadata": "f42bf24c7e7efe6eae53996b2d1f162bcc7341b468304f71052fcc8a6932115f"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "(uint256)",
+          "getter()",
+          "setter(uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "A",
+            "src": "contracts\\Task.sol:7"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "value",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "A",
+              "src": "contracts\\Task.sol:5"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.19"
+      }
+    },
+    {
+      "contracts/Task.sol:A": {
+        "src": "contracts\\Task.sol:2",
+        "version": {
+          "withMetadata": "03c196c2d6c73c3a8ca068b97efcf63a09e8e55fdda59501bcd0df6a33995c1a",
+          "withoutMetadata": "f42bf24c7e7efe6eae53996b2d1f162bcc7341b468304f71052fcc8a6932115f",
+          "linkedWithoutMetadata": "f42bf24c7e7efe6eae53996b2d1f162bcc7341b468304f71052fcc8a6932115f"
+        },
+        "inherit": [],
+        "libraries": [],
+        "methods": [
+          "(uint256)",
+          "getter()",
+          "setter(uint256)"
+        ],
+        "linkReferences": [],
+        "errors": [
+          {
+            "kind": "constructor",
+            "contract": "A",
+            "src": "contracts\\Task.sol:5"
+          }
+        ],
+        "layout": {
+          "storage": [
+            {
+              "label": "value",
+              "offset": 0,
+              "slot": "0",
+              "type": "t_uint256",
+              "contract": "A",
+              "src": "contracts\\Task.sol:3"
+            }
+          ],
+          "types": {
+            "t_uint256": {
+              "label": "uint256",
+              "numberOfBytes": "32"
+            }
+          },
+          "layoutVersion": "1.2",
+          "flat": true,
+          "namespaces": {}
+        },
+        "solcVersion": "0.8.19"
+      }
+    }
+  ]
+}

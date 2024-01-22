@@ -1,0 +1,73 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\kashy\\OneDrive\\Desktop\\hashStack\\contracts\\Task.sol": {
+      "lastModificationDate": 1705917449509,
+      "contentHash": "3a5c55a100b3e20d2c91f970a3c2d4b9",
+      "sourceName": "contracts/Task.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": [
+        "A"
+      ]
+    },
+    "C:\\Users\\kashy\\OneDrive\\Desktop\\hashStack\\contracts\\Task2.sol": {
+      "lastModificationDate": 1705919730863,
+      "contentHash": "9b08b63a571f9569b852e428ec1ca928",
+      "sourceName": "contracts/Task2.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": [
+        "A2"
+      ]
+    }
+  }
+}
